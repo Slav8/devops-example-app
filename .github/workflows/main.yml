@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - "main"
-
+ 
 env:
   TEST_TAG: Slav8/devops-example-app:test
 
