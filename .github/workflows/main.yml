@@ -1,10 +1,9 @@
 name: main
-
 on:
   push:
     branches:
       - "main"
- 
+
 env:
   TEST_TAG: Slav8/devops-example-app:test
 
@@ -38,5 +37,3 @@ jobs:
           context: .
           push: true
           tags: Slav8/devops-example-app:latest
-
-
