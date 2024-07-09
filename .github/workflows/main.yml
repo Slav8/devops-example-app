@@ -39,10 +39,4 @@ jobs:
           push: true
           tags: Slav8/devops-example-app:latest
 
-      - name: Build and push caddy
-        uses: docker/build-push-action@v2
-        with:
-          context: .
-          file: services/caddy/Dockerfile
-          push: true
-          tags: Slav8/devops-example-caddy:latest
+
